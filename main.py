@@ -9,7 +9,7 @@ writer = tf.summary.FileWriter(log_path)
 # Load and prepare data
 data_handler = DataHandler()
 
-training_data =  data_handler.read_data('Zulu.txt')
+training_data =  data_handler.read_data('Data/Zulu.txt')
 
 dictionary, reverse_dictionary = data_handler.build_datasets(training_data)
 
